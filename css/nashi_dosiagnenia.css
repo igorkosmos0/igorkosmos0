@@ -1,0 +1,125 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+/*header*/
+.info_block{
+	width: 100%;
+	height: 120px;
+	background: linear-gradient(to bottom, rgba(210,255,82,1) 0%,rgba(145,232,66,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842',GradientType=0 );
+}
+.DNZ{
+	font-family: 'Roboto Slab', serif;
+	font-size: 150%;
+	text-align: center;
+}
+@media(max-width: 620px){
+	.DNZ{
+	font-size: 100%;
+	}
+}
+.KK{
+	font-family: 'Lobster', cursive;
+	font-size: 280%;
+	text-align: center;
+}
+.menu_divs{
+	position: absolute;
+	margin-top: 5%;
+	width: 70%;
+	height: 150px;
+	margin-left: 15%;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	z-index: 10;
+}
+.blocks{
+	width: 15%;
+	height: 25%;
+	min-width: 60px;
+	margin: 5px;
+	position: relative;
+	top: 25%;
+	padding-top: 0.5%;
+	font-size: 150%;
+	border-radius: 5%;
+	font-family: 'Scada', sans-serif;
+	background: linear-gradient(to bottom, rgba(210,255,82,1) 0%,rgba(145,232,66,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842',GradientType=0 );
+}
+.blocks:hover{
+	box-shadow:inset 2px 2px 10px 2px #000000;
+	font-size: 130%;
+}
+@media(max-width: 1800px){
+	.blocks{
+	width: 20%;
+
+	}
+}
+@media(max-width: 1380px){
+	.blocks{
+	width: 20%;
+	height: 40%;
+	top: 10%;
+	}
+}
+@media(max-width: 950px){
+	.blocks{
+	font-size: 110%;
+	}
+}
+@media(max-width: 700px){
+	.blocks{
+	font-size: 80%;
+	}
+}
+@media(max-width: 650px){
+	.blocks{
+	width: 20%;
+	height: 25%;
+	}
+}
+@media(max-width: 500px){
+	.blocks{
+	font-size: 60%;
+	}
+}
+.panor{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+@media(max-width: 1200px){
+	.panor{
+		display: none;
+	}
+	.menu_divs{
+		position: relative;
+		margin-top: 2%;
+	}
+}
+.line{
+	width: 100%;
+	height: 20px;
+	background: linear-gradient(to bottom, rgba(210,255,82,1) 0%,rgba(145,232,66,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d2ff52', endColorstr='#91e842',GradientType=0 );
+	margin-top: -4px;
+}
+@media(max-width: 1200px){
+	.line{
+		margin-top: -30px;
+	}
+}
+@media(max-width: 650px){
+	.line{
+		margin-top: -55px;
+	}
+}
+/*main*/
+main{
+	background-color: #ebffea;
+}
